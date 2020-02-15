@@ -4,7 +4,7 @@
 众所周知adobe flash player中国版存在**锁区+强制弹广告+你删了广告就不让你用**的流氓行为，例如
 http://tieba.baidu.com/p/5992864556
 
-两种解决方案
+三种解决方案
 
 * 都先卸载Adobe Flash Player和Flash Helper Service。大数字的软件管家可以清理干净，也可以手动卸载再去目录里删除
 
@@ -18,3 +18,6 @@ http://tieba.baidu.com/p/5992864556
   - ruffle对于有些游戏处理的有bug，比如魔塔24层，囧
 - lightspark，看起来更靠谱些的一个c++写的flash播放器，下载地址https://github.com/lightspark/lightspark/releases。但是我启动的时候提示gdi32.dll版本不正确……也许对你们有用
   - 好处是这是个界面程序……听说bug少一些，看官方仓库，开发也活跃一些
+
+3. 使用独立版(debug版)
+- 兼容性最好，本仓库也提供。目前还在试用，唯一不清楚是否会弹广告，不过即便弹广告也可以破坏(因为服务不捆绑)
