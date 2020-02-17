@@ -16,7 +16,7 @@ http://tieba.baidu.com/p/5992864556
 2. 使用开源替代方案(均仅64位版本)
 - ruffle，一个使用rust编写的flash播放器，可以在github找到。但官方仓库没有提供exe文件，在本仓库提供下载。在cmd下面 ruffle.exe 文件名.swf 即可播放
   - ruffle对于有些游戏处理的有bug，比如魔塔24层，囧
-- lightspark，看起来更靠谱些的一个c++写的flash播放器，下载地址https://github.com/lightspark/lightspark/releases。但是我启动的时候提示gdi32.dll版本不正确……也许对你们有用
+- lightspark，看起来更靠谱些的一个c++写的flash播放器，下载地址<https://github.com/lightspark/lightspark/releases>。但是我启动的时候提示gdi32.dll版本不正确……也许对你们有用
   - 好处是这是个界面程序……听说bug少一些，看官方仓库，开发也活跃一些
 
 3. 使用独立版(debug版)
